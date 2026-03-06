@@ -1,4 +1,4 @@
-const BASE_URL = `${import.meta.env.VITE_API_URL}/api/crypto`;
+const BASE_URL = "https://crypto-wave-8j9w.onrender.com/api/crypto";
 console.log("API URL:", import.meta.env.VITE_API_URL);
 // Umumiy so'rov yuboruvchi funksiya
 async function request(endpoint, body) {

@@ -1,5 +1,5 @@
 const BASE_URL = `${import.meta.env.VITE_API_URL}/api/crypto`;
-
+console.log("API URL:", import.meta.env.VITE_API_URL);
 // Umumiy so'rov yuboruvchi funksiya
 async function request(endpoint, body) {
   const response = await fetch(`${BASE_URL}/${endpoint}`, {

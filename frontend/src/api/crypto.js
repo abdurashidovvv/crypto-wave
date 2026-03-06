@@ -1,4 +1,4 @@
-const BASE_URL = "/api/crypto";
+const BASE_URL = `${import.meta.env.VITE_API_URL}/api/crypto`;
 
 // Umumiy so'rov yuboruvchi funksiya
 async function request(endpoint, body) {

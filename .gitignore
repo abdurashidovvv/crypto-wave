@@ -9,8 +9,5 @@ venv/
 node_modules/
 frontend/dist/
 
-# Dataset (juda katta)
-backend/app/words.txt
-
 # Docker
 .docker/
